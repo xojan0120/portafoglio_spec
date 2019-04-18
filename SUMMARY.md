@@ -4,5 +4,5 @@
 
 ## React Component
 
-* [AppBar](react-component/appbar.md)
+* [MyAppBar](react-component/appbar.md)
 
