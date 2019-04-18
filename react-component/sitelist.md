@@ -20,3 +20,12 @@ description: サイトリストを表示する
 
 * リクエストtoAPI：detail
 
+## Required data from API
+
+### Site list
+
+| Data | Remarks |
+| :--- | :--- |
+| Site name |  |
+| Comment |  |
+
