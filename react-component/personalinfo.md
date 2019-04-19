@@ -1,20 +1,20 @@
-# PersonalInfo
+# UserInfo
 
 ## Required props
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| username | User's username |  |
+| username | username |  |
 
 ## Required data
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| name | User's name |  |
-| username | User's username |  |
-| email | User's email | fetch only own email |
-| skills | User's skills |  |
-| snses | User's snses |  |
+| nickname | nickname |  |
+| username | username |  |
+| email | email | fetch only own email |
+| skills | skills |  |
+| snses | snses |  |
 
 ## Required states
 
@@ -24,7 +24,7 @@
 
 ## Links
 
-| Ttile | Type | To |
+| Title | Type | To |
 | :--- | :--- | :--- |
 | Twitter \(Icon\) | a | https://www.twitter.com/your\_id |
 | Facebook \(Icon\) | a | https://www.facebook.com/your\_id |

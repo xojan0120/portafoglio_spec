@@ -4,7 +4,13 @@
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| username | User's username |  |
+| username | username |  |
+
+## Links
+
+| Title | Type | To |
+| :--- | :--- | :--- |
+| Twitter \(Icon\) | a | /detail/register |
 
 
 

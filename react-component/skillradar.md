@@ -4,8 +4,8 @@
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| username | User's username |  |
-| skills | User's skills |  |
+| username | username |  |
+| skills | skills |  |
 
 ## Required data
 

@@ -2,7 +2,7 @@
 
 ## Links
 
-| Ttile | Type | To |
+| Title | Type | To |
 | :--- | :--- | :--- |
 | Portafoglio | a | / |
 | Menu \(Icon\) | popup |  |

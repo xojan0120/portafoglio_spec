@@ -4,7 +4,7 @@
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| username | User's username |  |
+| username | username |  |
 
 
 

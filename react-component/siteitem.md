@@ -10,7 +10,7 @@
 
 ## Links
 
-| Ttile | Type | To |
+| Title | Type | To |
 | :--- | :--- | :--- |
 | Site Item \(Component\) | a | /detail/:id |
 

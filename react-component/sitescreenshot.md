@@ -1,22 +1,21 @@
-# Avatar
+# SiteScreenshot
 
 ## Required props
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
+| id | Site id |  |
 | username | username |  |
 
 ## Required data
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| avatar | avatar image data \(DATA URI\) |  |
+| screenshot | Site screenshot \(DATA URI\) |  |
 
 ## Required states
 
 | Key | Remarks |
 | :--- | :--- |
 | loggedInUsername |  |
-
-
 

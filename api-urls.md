@@ -1,6 +1,6 @@
 # API
 
-PATCHは部分更新、PUTは置換
+POSTは作成、PATCHは部分更新、PUTは置換
 
 | Method | URL | Receiv Params |
 | :--- | :--- | :--- |
@@ -12,8 +12,14 @@ PATCHは部分更新、PUTは置換
 | GET | /api/v1/portafoglios/random |  |
 | PUT | /api/v1/users/:id/avatar | avatar data \(DATA URI\) |
 | DELETE | /api/v1/users/:id/avatar |  |
-| GET | /api/v1/users/:id/skill |  |
+| GET | /api/v1/users/:id/skills |  |
 | PATCH | /api/v1/users/:id/skill | name, level |
+| DELETE | /api/v1/users/:id |  |
+| PUT | /api/v1/users/:id/profile | nickname, username, email, skills, sns ids |
+| PUT | /api/v1/portafoglios/:id/screenshot |  |
+| DELETE | /api/v1/portafoglios/:id/screenshot |  |
+| POST | /api/v1/portafoglios/:site\_id/reaction/:reaction\_id |  |
+| DELETE | /api/v1/portafoglios/:site\_id/reaction/:reaction\_id |  |
 
 
 

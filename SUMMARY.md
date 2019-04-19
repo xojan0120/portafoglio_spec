@@ -13,7 +13,10 @@
 * [Profile](react-component/profile.md)
 * [Avatar](react-component/avatar.md)
 * [SkillRadar](react-component/skillradar.md)
-* [PersonalInfo](react-component/personalinfo.md)
+* [UserInfo](react-component/personalinfo.md)
 * [MySiteList](react-component/mysitelist.md)
 * [SiteDetail](react-component/sitedetail.md)
+* [SiteScreenshot](react-component/sitescreenshot.md)
+* [SiteReaction](react-component/sitereaction.md)
+* [SiteInfo](react-component/siteinfo.md)
 
