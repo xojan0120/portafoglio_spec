@@ -5,7 +5,6 @@
 
 ## React Component
 
-* [Root](react-component/root.md)
 * [MyAppBar](react-component/appbar.md)
 * [SiteList](react-component/sitelist.md)
 * [SiteItem](react-component/siteitem.md)
