@@ -1,4 +1,4 @@
-# Profile
+# UserDetail
 
 ## Required props
 

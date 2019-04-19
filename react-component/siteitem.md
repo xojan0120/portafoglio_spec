@@ -6,11 +6,11 @@
 | :--- | :--- | :--- |
 | name | Site name |  |
 | comment | Site comment |  |
-| id | Site id |  |
+| siteId | Site id |  |
 
 ## Links
 
 | Title | Type | To |
 | :--- | :--- | :--- |
-| Site Item \(Component\) | a | /detail/:id |
+| Site Item \(Component\) | a | /sites/:siteId/detail |
 

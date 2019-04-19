@@ -4,7 +4,7 @@
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| id | Site id |  |
+| siteId | Site id |  |
 | username | username |  |
 
 ## Required data

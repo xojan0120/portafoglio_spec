@@ -10,7 +10,7 @@
 * [SiteList](react-component/sitelist.md)
 * [SiteItem](react-component/siteitem.md)
 * [About](react-component/about.md)
-* [Profile](react-component/profile.md)
+* [UserDetail](react-component/profile.md)
 * [Avatar](react-component/avatar.md)
 * [SkillRadar](react-component/skillradar.md)
 * [UserInfo](react-component/personalinfo.md)

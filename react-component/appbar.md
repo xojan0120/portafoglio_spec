@@ -9,7 +9,7 @@
 | About | a | /about |
 | New | a | /new |
 | Random | a | /random |
-| Avatar \(Icon\) | a | /profile |
+| Avatar \(Icon\) | a | /users/:username/detail |
 | Sign in | a | /signin |
 | Sign out | a | /signout |
 
@@ -34,12 +34,10 @@
 
 * 表示条件：Sign out状態であること。
 * Firebase認証へのリンク
-* リクエストtoAPI：signin
 
 ### Sign out
 
 * 表示条件：Sign in状態であること。
-* リクエストtoAPI：signout
 
 ## Required states
 

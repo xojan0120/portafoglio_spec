@@ -10,7 +10,7 @@
 
 | Title | Type | To |
 | :--- | :--- | :--- |
-| Twitter \(Icon\) | a | /detail/register |
+| plus \(Icon\) | a | /sites/register |
 
 
 

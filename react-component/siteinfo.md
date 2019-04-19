@@ -4,7 +4,7 @@
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| id | Site id |  |
+| siteId | Site id |  |
 | username | username |  |
 
 ## Required data
@@ -25,4 +25,11 @@
 | Key | Remarks |
 | :--- | :--- |
 | loggedInUsername |  |
+
+## Links
+
+| Title | Type | To |
+| :--- | :--- | :--- |
+| Owner nickname | a | /users/:username/detail |
+| Site URL | a | Site URL |
 
