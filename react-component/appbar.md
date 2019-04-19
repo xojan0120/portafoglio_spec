@@ -1,7 +1,3 @@
----
-description: 各ページ共通のナビゲーションバー
----
-
 # MyAppBar
 
 ## Links
@@ -45,13 +41,13 @@ description: 各ページ共通のナビゲーションバー
 * 表示条件：Sign in状態であること。
 * リクエストtoAPI：signout
 
-## States to use
+## Required states
 
-| Key | Type | Default value |
-| :--- | :--- | :--- |
-| login | boolean | false |
+| Key | Remarks |
+| :--- | :--- |
+| loggedInUsername |  |
 
-## Functions to use
+
 
 
 

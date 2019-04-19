@@ -1,12 +1,16 @@
----
-description: サイトアイテムを表示する
----
-
 # SiteItem
 
-## Receiv Props
+## Required props
 
-| Name | Value |
-| :--- | :--- |
-| id | site id |
+| Key | Value | Remarks |
+| :--- | :--- | :--- |
+| name | Site name |  |
+| comment | Site comment |  |
+| id | Site id |  |
+
+## Links
+
+| Ttile | Type | To |
+| :--- | :--- | :--- |
+| Site Item \(Component\) | a | /detail/:id |
 

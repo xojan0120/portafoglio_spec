@@ -1,31 +1,18 @@
----
-description: サイトリストを表示する
----
-
 # SiteList
 
-## Receiv Props
+## Required props
 
-| Name | Value |
-| :--- | :--- |
-| order | 'new' or 'random' |
-
-## Links
-
-| Ttile | Type | To |
+| Key | Value | Remarks |
 | :--- | :--- | :--- |
-| Site Item \(Component\) | a | /detail/:id |
+| order | 'new' or 'random' |  |
 
-### Site item \(Component\)
+## Required data
 
-* リクエストtoAPI：detail
+| Key | Value | Remarks |
+| :--- | :--- | :--- |
+| name | Site name |  |
+| comment | Site comment |  |
+| id | Site id |  |
 
-## Required data from API
-
-### Site list
-
-| Data | Remarks |
-| :--- | :--- |
-| Site name |  |
-| Comment |  |
+## 
 

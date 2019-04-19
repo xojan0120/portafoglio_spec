@@ -1,10 +1,10 @@
----
-description: ルートコンポーネント
----
-
 # Root
 
 ## States
+
+| Key | Type | Default value |
+| :--- | :--- | :--- |
+|  |  |  |
 
 ## Functions
 
