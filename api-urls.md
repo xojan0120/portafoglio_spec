@@ -2,6 +2,10 @@
 
 POSTは作成、PATCHは部分更新、PUTは置換
 
+```text
+BASE /api/v1
+```
+
 | Method | URL | Receiv Params |
 | :--- | :--- | :--- |
 | POST | /api/v1/signin | pending... |
@@ -18,8 +22,9 @@ POSTは作成、PATCHは部分更新、PUTは置換
 | PUT | /api/v1/users/:id/profile | nickname, username, email, skills, sns ids |
 | PUT | /api/v1/portafoglios/:id/screenshot |  |
 | DELETE | /api/v1/portafoglios/:id/screenshot |  |
-| POST | /api/v1/portafoglios/:site\_id/reaction/:reaction\_id |  |
-| DELETE | /api/v1/portafoglios/:site\_id/reaction/:reaction\_id |  |
+| POST | /api/v1/portafoglios/:site\_id/reactions/:reaction\_id |  |
+| DELETE | /api/v1/portafoglios/:site\_id/reactions/:reaction\_id |  |
+| POST | /api/vi1/portafoglios/:id/views |  |
 
 
 
