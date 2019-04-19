@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Portafoglio Spec](README.md)
-* [API](api-urls.md)
+* [API](api.md)
 
 ## React Component
 
@@ -10,10 +10,10 @@
 * [SiteList](react-component/sitelist.md)
 * [SiteItem](react-component/siteitem.md)
 * [About](react-component/about.md)
-* [UserDetail](react-component/profile.md)
+* [UserDetail](react-component/userdetail.md)
 * [Avatar](react-component/avatar.md)
 * [SkillRadar](react-component/skillradar.md)
-* [UserInfo](react-component/personalinfo.md)
+* [UserInfo](react-component/userinfo.md)
 * [MySiteList](react-component/mysitelist.md)
 * [SiteDetail](react-component/sitedetail.md)
 * [SiteScreenshot](react-component/sitescreenshot.md)
