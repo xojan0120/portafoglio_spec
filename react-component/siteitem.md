@@ -6,6 +6,7 @@
 | :--- | :--- | :--- |
 | name | Site name |  |
 | comment | Site comment |  |
+| screenshot | Site screenshot |  |
 | siteId | Site id |  |
 
 ## Links

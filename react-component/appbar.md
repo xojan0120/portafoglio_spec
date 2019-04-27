@@ -2,7 +2,7 @@
 
 ## Links
 
-| Title | Type | To |
+| Title | Type | To or Action |
 | :--- | :--- | :--- |
 | Portafoglio | a | / |
 | Menu \(Icon\) | popup |  |
@@ -11,7 +11,7 @@
 | Random | a | /random |
 | Avatar \(Icon\) | a | /users/:username/detail |
 | Sign in | a | /signin |
-| Sign out | a | /signout |
+| Sign out | a | call sign out function |
 
 ### Menu \(Icon\)
 
@@ -33,7 +33,7 @@
 ### Sign in
 
 * 表示条件：Sign out状態であること。
-* Firebase認証へのリンク
+* FirebaseUIを表示する
 
 ### Sign out
 
@@ -43,7 +43,7 @@
 
 | Key | Remarks |
 | :--- | :--- |
-| loggedInUsername |  |
+| user |  |
 
 
 
