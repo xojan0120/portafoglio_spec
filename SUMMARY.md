@@ -2,6 +2,7 @@
 
 * [Portafoglio Spec](README.md)
 * [API](api.md)
+* [Other document link](other-document-link.md)
 
 ## React Component
 
