@@ -5,5 +5,5 @@
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
 | siteId | Site id |  |
-| username | username |  |
+| username | username | 不要？ |
 
