@@ -5,7 +5,8 @@
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
 | siteId | Site id |  |
-| username | username |  |
+| authOwner | Auth owner flag |  |
+| user | Firebase user info |  |
 
 ## Required data
 

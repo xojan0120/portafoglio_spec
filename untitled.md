@@ -2,7 +2,7 @@
 
 {% api-method method="get" host="" path="/v1/sites/" %}
 {% api-method-summary %}
-Get site list
+getSiteList
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -30,8 +30,7 @@ Get site list
   "list": [
     {"name" "site name1", "comment1": "site comment1", "id": 1},
     {"name" "site name2", "comment2": "site comment2", "id": 2}
-  ]
-}
+  
 ```
 {% endapi-method-response-example %}
 {% endapi-method-response %}
@@ -40,7 +39,7 @@ Get site list
 
 {% api-method method="get" host="" path="/v1/units/" %}
 {% api-method-summary %}
-Get units
+getPeriodUnits
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -75,7 +74,7 @@ Get units
 
 {% api-method method="get" host="" path="/v1/skills/" %}
 {% api-method-summary %}
-Get skills
+getSkills
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -108,7 +107,7 @@ Get skills
 
 {% api-method method="get" host="" path="/v1/sites/:site\_id/reactions" %}
 {% api-method-summary %}
-Get reaction count of site
+getReactionCount
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -146,7 +145,7 @@ Get reaction count of site
 
 {% api-method method="get" host="" path="/v1/sites/:site\_id/views" %}
 {% api-method-summary %}
-Get view count of site
+getViewCount
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -181,7 +180,7 @@ Get view count of site
 
 {% api-method method="get" host="" path="/v1/sites/:site\_id/info" %}
 {% api-method-summary %}
-Get site info
+getSiteInfo
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -229,7 +228,7 @@ Get site info
 
 {% api-method method="get" host="" path="/v1/sites/:site\_id/auth" %}
 {% api-method-summary %}
-Get site owner authentication
+authSiteOwner
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -270,7 +269,7 @@ Get site owner authentication
 
 {% api-method method="post" host="" path="/v1/sites/:site\_id/info" %}
 {% api-method-summary %}
-Post site info
+updateSiteInfo
 {% endapi-method-summary %}
 
 {% api-method-description %}
@@ -292,6 +291,10 @@ Firebase id token
 {% endapi-method-headers %}
 
 {% api-method-form-data-parameters %}
+{% api-method-parameter name="uid" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
 {% api-method-parameter name="comment" type="string" required=true %}
 
 {% endapi-method-parameter %}
@@ -325,6 +328,219 @@ Firebase id token
 {% endapi-method-response-example-description %}
 
 ```javascript
+{
+  "message": "Success"
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="delete" host="" path="/v1/sites/:site\_id" %}
+{% api-method-summary %}
+deleteSiteScreenshot
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="site\_id" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Firebase id token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="uid" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+{
+  "message": "Success"
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+
+
+{% api-method method="get" host="" path="/v1/sites/:site\_id" %}
+{% api-method-summary %}
+getSiteScreenshot
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="site\_id" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "message": "Success"
+  "url": <Data URI>
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="/v1/sites/:site\_id/reactions" %}
+{% api-method-summary %}
+updateReactionCount
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="site\_id" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Firebase id token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="uid" type="string" required=true %}
+
+{% endapi-method-parameter %}
+
+{% api-method-parameter name="reaction" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+{
+  "message": "Success"
+  "count": <Reaction count>
+}
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="post" host="" path="/v1/sites/:site\_id/views" %}
+{% api-method-summary %}
+updateViewCount
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="site\_id" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=204 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
+
+```
+{% endapi-method-response-example %}
+{% endapi-method-response %}
+{% endapi-method-spec %}
+{% endapi-method %}
+
+{% api-method method="delete" host="" path="/v1/sites/:site\_id" %}
+{% api-method-summary %}
+deleteSite
+{% endapi-method-summary %}
+
+{% api-method-description %}
+
+{% endapi-method-description %}
+
+{% api-method-spec %}
+{% api-method-request %}
+{% api-method-path-parameters %}
+{% api-method-parameter name="site\_id" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-path-parameters %}
+
+{% api-method-headers %}
+{% api-method-parameter name="Authorization" type="string" required=true %}
+Firebase id token
+{% endapi-method-parameter %}
+{% endapi-method-headers %}
+
+{% api-method-form-data-parameters %}
+{% api-method-parameter name="uid" type="string" required=true %}
+
+{% endapi-method-parameter %}
+{% endapi-method-form-data-parameters %}
+{% endapi-method-request %}
+
+{% api-method-response %}
+{% api-method-response-example httpCode=200 %}
+{% api-method-response-example-description %}
+
+{% endapi-method-response-example-description %}
+
+```
 {
   "message": "Success"
 }
