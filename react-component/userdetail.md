@@ -1,10 +1,13 @@
-# UserDetail
+---
+description: '/users/:uid'
+---
 
-## Required props
+# UserPage
 
-| Key | Value | Remarks |
-| :--- | :--- | :--- |
-| username | username |  |
+## States
 
-
+| Key | Remarks |
+| :--- | :--- |
+| user |  |
+| isMe |  |
 

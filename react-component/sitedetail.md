@@ -6,3 +6,9 @@
 | :--- | :--- | :--- |
 | siteId | Site id |  |
 
+## Required states
+
+| Key | Remarks |
+| :--- | :--- |
+| authOwner |  |
+

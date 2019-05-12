@@ -21,12 +21,6 @@
 | usedSkills | Used skills |  |
 | comment | Site comment |  |
 
-## Required states
-
-| Key | Remarks |
-| :--- | :--- |
-| loggedInUsername |  |
-
 ## Links
 
 | Title | Type | To |

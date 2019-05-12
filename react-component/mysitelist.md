@@ -1,16 +1,16 @@
-# MySiteList
+# UserSiteList
 
-## Required props
+## Props <a id="required-props"></a>
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| username | username |  |
+| user |  |  |
+| isMe |  |  |
+| uid |  |  |
 
-## Links
+## APIs
 
-| Title | Type | To |
-| :--- | :--- | :--- |
-| plus \(Icon\) | a | /sites/register |
-
-
+```javascript
+const getUserSiteList = (uid) => {}
+```
 

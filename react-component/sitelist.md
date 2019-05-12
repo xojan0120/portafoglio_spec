@@ -1,12 +1,13 @@
 # SiteList
 
-## Required props
+## Parameters
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
-| order | 'new' or 'random' |  |
+| page |  |  |
+| uid |  |  |
 
-## Required data
+## Responses
 
 | Key | Value | Remarks |
 | :--- | :--- | :--- |
